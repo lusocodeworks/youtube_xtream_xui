@@ -38,7 +38,7 @@ Para acessar esses conteúdos, é necessário exportar os cookies do navegador.
 Instalar uma das seguintes extensões no navegador:  
 
 📌 **Para Google Chrome:**  
-👉 [Get cookies.txt](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cookiemanager-free-addon)  
+👉 [Get cookies.txt]((https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc))  
 
 📌 **Para Firefox:**  
 👉 [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/)  
