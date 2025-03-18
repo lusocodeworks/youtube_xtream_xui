@@ -1,0 +1,6 @@
+# O primeiro campo é o link da live do YouTube.
+# O segundo campo é a porta UDP onde o Xtream Codes receberá o stream.
+
+https://www.youtube.com/watch?v=7g88SDK9_Y0|127.0.0.1:1234
+https://www.youtube.com/watch?v=EXEMPLO2|127.0.0.1:1235
+https://www.youtube.com/watch?v=EXEMPLO3|127.0.0.1:1236
