@@ -21,7 +21,7 @@ Antes de começar, certifique-se de que seu servidor tem:
 ✔ **Ubuntu 18/20/22** (ou similar)  
 ✔ **Acesso root** ou permissões sudo  
 ✔ **FFmpeg e yt-dlp instalados**  
-✔ **Xtream Codes/XUI configurado**  
+✔ **LB Xtream Codes/XUI configurado**  
 
 Se precisar instalar os pacotes necessários, execute:
 ```bash
