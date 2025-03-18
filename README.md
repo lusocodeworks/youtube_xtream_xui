@@ -45,10 +45,10 @@ Instale uma das seguintes extensões no navegador:
 ---
 
 ### **🔹 Passo 2: Exportar os cookies**
-1️⃣ **Acesse [YouTube.com](https://www.youtube.com) e faça login**  
-2️⃣ **Abra a transmissão ao vivo que deseja capturar**  
-3️⃣ **Clique na extensão e exporte os cookies**  
-4️⃣ **Salve o arquivo como `cookies.txt`**  
+1️⃣ **Acesar [YouTube.com](https://www.youtube.com) e faça login**  
+2️⃣ **Abre a transmissão ao vivo que deseja capturar**  
+3️⃣ **Clica na extensão e exporte os cookies**  
+4️⃣ **Salva o arquivo como `cookies.txt`**  
 
 ---
 
