@@ -85,7 +85,11 @@ https://www.youtube.com/watch?v=EXEMPLO3|127.0.0.1:1236
 📌 **Cada linha representa um canal.**  
 📌 **O primeiro campo é o link do YouTube.**  
 📌 **O segundo campo é a porta UDP para o Xtream Codes/XUI.**
-
+📌 **No Painel devera colocae o link udp do stream
+---
+Exemplo para o 1º Url
+```bash
+   udp://127.0.0.1:1234
 ---
  **Antes de executar verificar o caminho para o ffmpeg e para o youtube bin do Xui ou Xtream-codes exemplo para servidores xtream-codes:
 ```bash
