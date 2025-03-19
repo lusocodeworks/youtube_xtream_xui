@@ -6,16 +6,6 @@ URLS_FILE="/root/urls.txt"
 YT_DLP_BIN="/home/xtreamcodes/iptv_xtream_codes/bin/youtube"  # Caminho para yt-dlp
 FFMPEG_BIN="/home/xtreamcodes/iptv_xtream_codes/bin/ffmpeg"        # Caminho para ffmpeg
 
-if ! command -v yt-dlp &> /dev/null; then
-    echo "yt-dlp não encontrado. Instalando..."
-    sudo apt update && sudo apt install -y yt-dlp
-fi
-
-if ! command -v ffmpeg &> /dev/null; then
-    echo "FFmpeg não encontrado. Instalando..."
-    sudo apt update && sudo apt install -y ffmpeg
-fi
-
 if [[ ! -f "$COOKIES_FILE" ]]; then
     echo "Erro: Arquivo de cookies não encontrado! Gere um novo e coloque em $COOKIES_FILE"
     exit 1
