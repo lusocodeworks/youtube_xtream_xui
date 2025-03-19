@@ -17,11 +17,11 @@ Este guia explica como **capturar transmissões ao vivo do YouTube** e transmiti
 ---
 
 ## **📌 2. Requisitos**
-Antes de começar, certifique-se de que seu servidor tem:  
+Antes de começar, certificar de que o servidor tem:  
 ✔ **Ubuntu 18/20/22** (ou similar)  
 ✔ **Acesso root** ou permissões sudo  
 ✔ **FFmpeg e yt-dlp instalados**  
-✔ **Xtream Codes/XUI configurado**  
+✔ **LB Xtream Codes/XUI configurado**  
 
 Se precisar instalar os pacotes necessários, execute:
 ```bash
@@ -38,13 +38,14 @@ snap install yt-dlp
 ---
 
 ## **📌 3. Como Capturar Cookies do YouTube**
-O YouTube exige autenticação para algumas transmissões ao vivo. Para acessar esses conteúdos, é necessário exportar seus cookies do navegador.
+O YouTube exige autenticação para algumas transmissões ao vivo. 
+Para acessar esses conteúdos, é necessário exportar os cookies do navegador.
 
 ### **🔹 Passo 1: Instalar a extensão**
-Instale uma das seguintes extensões no navegador:  
+Instalar uma das seguintes extensões no navegador:  
 
 📌 **Para Google Chrome:**  
-👉 [Get cookies.txt](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cookiemanager-free-addon)  
+👉 [Get cookies.txt](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)  
 
 📌 **Para Firefox:**  
 👉 [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/)  
@@ -52,15 +53,15 @@ Instale uma das seguintes extensões no navegador:
 ---
 
 ### **🔹 Passo 2: Exportar os cookies**
-1️⃣ **Acesse [YouTube.com](https://www.youtube.com) e faça login**  
-2️⃣ **Abra a transmissão ao vivo que deseja capturar**  
-3️⃣ **Clique na extensão e exporte os cookies**  
-4️⃣ **Salve o arquivo como `cookies.txt`**  
+1️⃣ **Acesar [YouTube.com](https://www.youtube.com) e faça login**  
+2️⃣ **Abre a transmissão ao vivo que deseja capturar**  
+3️⃣ **Clica na extensão e exporte os cookies**  
+4️⃣ **Salva o arquivo como `cookies.txt`**  
 
 ---
 
 ### **🔹 Passo 3: Transferir os cookies para o servidor**
-Agora, copie os cookies para o servidor usando SCP ou SFTP:
+Agora, copia os cookies para o servidor usando SCP ou SFTP:
 ```bash
 /root/cookies.txt
 ```
