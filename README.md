@@ -88,9 +88,10 @@ https://www.youtube.com/watch?v=EXEMPLO3|127.0.0.1:1236
 📌 **No Painel devera colocae o link udp do stream
 ---
 Exemplo para o 1º Url
+
 ```bash
    udp://127.0.0.1:1234
----
+```
  **Antes de executar verificar o caminho para o ffmpeg e para o youtube bin do Xui ou Xtream-codes exemplo para servidores xtream-codes:
 ```bash
 YT_DLP_BIN="/home/xtreamcodes/iptv_xtream_codes/bin/youtube"  # Caminho para yt-dlp
