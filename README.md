@@ -25,7 +25,14 @@ Antes de começar, certifique-se de que seu servidor tem:
 
 Se precisar instalar os pacotes necessários, execute:
 ```bash
-sudo apt update && sudo apt install -y yt-dlp ffmpeg
+sudo apt update && sudo apt install -y yt-dlp
+```
+
+ou 
+```bash
+
+snap install yt-dlp
+
 ```
 
 ---
@@ -115,7 +122,7 @@ crontab -e
 ```
 E adicione a linha:
 ```
-0 */6 * * * /root/youtube_file_stream.sh >> /root/youtube_live.log 2>&1
+0 */6 * * * /root/youtube.sh >> /root/youtube_live.log 2>&1
 ```
 Isso garantirá que as lives sejam **reiniciadas a cada 6 horas**.
 
