@@ -86,11 +86,14 @@ https://www.youtube.com/watch?v=EXEMPLO3|127.0.0.1:1236
 📌 **O primeiro campo é o link do YouTube.**  
 📌 **O segundo campo é a porta UDP para o Xtream Codes/XUI.**
 
-Salve e feche (`CTRL + X`, `Y`, `ENTER`).
-
 ---
+ **Antes de executar verificar o caminho para o ffmpeg e para o youtube bin do Xui ou Xtream-codes exemplo para servidores xtream-codes:
+```bash
+YT_DLP_BIN="/home/xtreamcodes/iptv_xtream_codes/bin/youtube"  # Caminho para yt-dlp
+FFMPEG_BIN="/home/xtreamcodes/iptv_xtream_codes/bin/ffmpeg"        # Caminho para ffmpeg
+```
 
-Salve e **torne o script executável**:
+**torne o script executável**:
 ```bash
 chmod +x /root/youtube.sh
 ```
