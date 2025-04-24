@@ -35,7 +35,67 @@ ou
 snap install yt-dlp
 
 ```
+🐧 Para Ubuntu / Debian (recomendado: Ubuntu 20.04 ou superior)
 
+```bash
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install -y python3.9 python3.9-venv python3.9-dev
+```
+Verifique a instalação:
+```bash
+python3.9 --version
+``Perfeito! Para tornar o **Python 3.9** o padrão ao usar `python3` no terminal, siga os passos abaixo de acordo com o seu sistema:
+
+---
+
+### 🔧 **Em Ubuntu/Debian** (usando `update-alternatives`)
+
+```bash
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+```
+
+> Substitua `/usr/bin/python3.9` pelo caminho real do binário, se for diferente. Verifique com:
+```bash
+which python3.9
+```
+
+Depois, se quiser confirmar ou escolher entre versões:
+
+```bash
+sudo update-alternatives --config python3
+```
+
+Aí é só selecionar o número correspondente ao Python 3.9.
+
+---
+
+### 🧩 **Se `update-alternatives` não estiver disponível**
+
+Você pode definir um alias no `~/.bashrc` (ou `~/.zshrc`, se usa zsh):
+
+```bash
+echo "alias python3='python3.9'" >> ~/.bashrc
+source ~/.bashrc
+```
+
+---
+
+### 🔁 Verifique se está funcionando:
+
+```bash
+python3 --version
+```
+
+Resultado esperado:
+
+```
+Python 3.9.x
+```
+
+Se quiser que eu gere um script completo `.sh` para automatizar isso tudo, posso te enviar agora mesmo. Deseja?`
 ---
 
 ## **📌 3. Como Capturar Cookies do YouTube**
