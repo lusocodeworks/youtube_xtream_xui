@@ -192,3 +192,17 @@ Isso garantirá que as lives sejam **reiniciadas a cada 6 horas**.
 Agora você pode **transmitir qualquer live do YouTube automaticamente**! 🚀🔥  
 
 📌 **Copyright © 2025 LusoCodeWorks - Todos os direitos reservados.** https://x-me.xyz
+
+
+## 💖 Apoie o Projeto | Support the Project
+
+Se este projeto te ajuda, considere apoiar com uma doação:  
+If this project helps you, consider supporting it with a donation:
+
+👉 [💳 Doar via Stripe]([https://buy.stripe.com/abc123](https://donate.stripe.com/8wMbMzg1O9ap1bi6oo))
+
+Ou digitalize:  
+Or scan:
+
+![Donate with Stripe QR](![image](https://github.com/user-attachments/assets/d180bc87-5f3f-4e58-9781-5b463f8c81db)
+)
