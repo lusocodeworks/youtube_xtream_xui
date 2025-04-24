@@ -57,8 +57,10 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
 ```
 
 > Substitua `/usr/bin/python3.9` pelo caminho real do binário, se for diferente. Verifique com:
+
 ```bash
 which python3.9
+
 ```
 
 Depois, se quiser confirmar ou escolher entre versões:
@@ -67,13 +69,9 @@ Depois, se quiser confirmar ou escolher entre versões:
 sudo update-alternatives --config python3
 ```
 
-Aí é só selecionar o número correspondente ao Python 3.9.
-
----
-
+selecionar o número correspondente ao Python 3.9.
 ### 🧩 **Se `update-alternatives` não estiver disponível**
-
-Você pode definir um alias no `~/.bashrc` (ou `~/.zshrc`, se usa zsh):
+pode definir um alias no `~/.bashrc` (ou `~/.zshrc`, se usa zsh):
 
 ```bash
 echo "alias python3='python3.9'" >> ~/.bashrc
