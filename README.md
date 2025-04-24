@@ -199,10 +199,6 @@ Agora você pode **transmitir qualquer live do YouTube automaticamente**! 🚀�
 Se este projeto te ajuda, considere apoiar com uma doação:  
 If this project helps you, consider supporting it with a donation:
 
-👉 [💳 Doar via Stripe] [[https://donate.stripe.com/8wMbMzg1O9ap1bi6oo]]
+👉 [💳 Doar via Stripe] (https://donate.stripe.com/8wMbMzg1O9ap1bi6oo)
 
-Ou digitalize:  
-Or scan:
-
-![image](https://github.com/user-attachments/assets/3f55f366-d89a-4430-a894-a8d40ff23a8d)
 
