@@ -90,10 +90,6 @@ Resultado esperado:
 ```
 Python 3.9.x
 ```
-
-Se quiser que eu gere um script completo `.sh` para automatizar isso tudo, posso te enviar agora mesmo. Deseja?`
----
-
 ## **📌 3. Como Capturar Cookies do YouTube**
 O YouTube exige autenticação para algumas transmissões ao vivo. 
 Para acessar esses conteúdos, é necessário exportar os cookies do navegador.
