@@ -22,6 +22,7 @@ Antes de começar, certificar de que o servidor tem:
 ✔ **Acesso root** ou permissões sudo  
 ✔ **FFmpeg e yt-dlp instalados**  
 ✔ **LB Xtream Codes/XUI configurado**  
+✔ **python3.8 ou python3.9**  
 
 Se precisar instalar os pacotes necessários, execute:
 ```bash
