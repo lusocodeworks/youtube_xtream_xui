@@ -35,7 +35,7 @@ ou
 snap install yt-dlp
 
 ```
-🐧 Para Ubuntu / Debian (recomendado: Ubuntu 20.04 ou superior)
+🐧 python3.9 Para Ubuntu / Debian (recomendado: Ubuntu 20.04 ou superior)
 
 ```bash
 sudo apt update
@@ -47,10 +47,9 @@ sudo apt install -y python3.9 python3.9-venv python3.9-dev
 Verifique a instalação:
 ```bash
 python3.9 --version
-``Perfeito! Para tornar o **Python 3.9** o padrão ao usar `python3` no terminal, siga os passos abaixo de acordo com o seu sistema:
-
+```
+Perfeito! Para tornar o **Python 3.9** o padrão ao usar `python3` no terminal, siga os passos abaixo de acordo com o seu sistema:
 ---
-
 ### 🔧 **Em Ubuntu/Debian** (usando `update-alternatives`)
 
 ```bash
@@ -83,12 +82,11 @@ source ~/.bashrc
 
 ---
 
-### 🔁 Verifique se está funcionando:
+### 🔁 Verifique se está funcionar:
 
 ```bash
 python3 --version
 ```
-
 Resultado esperado:
 
 ```
